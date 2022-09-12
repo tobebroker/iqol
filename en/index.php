@@ -401,7 +401,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 offset-md-1">
-                        <p>© 2022 All Rights Reserved.</p>
+                        <p>© <?= Date('Y') ?> All Rights Reserved.</p>
                         <p class="caption">
                             Anything you put your money into should meet your investment goals and suit your
                             circumstances. Being a leveraged product, CFDs by nature involves risk. You are taking a
