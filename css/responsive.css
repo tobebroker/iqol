@@ -167,8 +167,7 @@
         padding-top: 6px;
     }
     .navigation.navbar-dark .navbar-toggler-icon {
-        background: url(../images/menu_icon.png);
-        background-repeat: no-repeat;
+        background: url(../images/menu_icon.png) no-repeat;
     }
     .d_none {
         display: none;
