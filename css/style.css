@@ -259,7 +259,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-    color: #fec955;
+    color: #FF7656;
     text-decoration: underline !important;
 }
 
@@ -267,7 +267,7 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show > .nav-link {
-    color: #fec955;
+    color: #FF7656;
     text-decoration: underline !important;
 }
 
@@ -293,7 +293,7 @@ button {
 
 /** banner section **/
 .banner_main {
-    background: url(../images/banner.jpg) no-repeat;
+    background: url(../images/map.jpg) no-repeat;
     min-height: 900px;
     background-size: 100% 100%;
     display: flex;
@@ -336,8 +336,8 @@ button {
 
 .text-bg h1 {
     color: #fff;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 47px;
+    line-height: 55px;
     padding-bottom: 30px;
 }
 
@@ -354,6 +354,10 @@ button {
 
 .text_img figure {
     margin: 0;
+}
+
+.text_img figure img {
+    border-radius: 10px;
 }
 
 .text_img figure h3 {
@@ -419,7 +423,7 @@ button {
 
 .titlepage h2 {
     font-size: 40px;
-    color: #02246a;
+    color: #FF7656;
     line-height: 55px;
     padding: 0;
     text-align: center;
@@ -437,7 +441,7 @@ button {
 
 .team {
     background-color: #fff;
-    padding-top: 85px;
+    padding-top: 30px;
 }
 
 .team .titlepage {
@@ -481,6 +485,7 @@ button {
 
 .team_img figure img {
     width: 100%;
+    border-radius: 10px;
 }
 
 /** services section **/
@@ -573,16 +578,6 @@ button {
     position: relative;
 }
 
-.ideas::before {
-    position: absolute;
-    bottom: 0;
-    right: 38px;
-    content: "";
-    background: url(../images/iadius_cross.png) no-repeat;
-    width: 420px;
-    height: 100%;
-}
-
 .ideas .titlepage {
     text-align: left;
 }
@@ -596,7 +591,7 @@ button {
 }
 
 .ideas .titlepage h2 {
-    color: #02246a;
+    color: #FF7656;
 }
 
 .border_trbl {
@@ -664,7 +659,7 @@ button {
     left: 0;
     right: 0;
     content: "";
-    background: url(../images/con_cross.png) no-repeat;
+    background: url(../images/wave.png) no-repeat;
     width: 100%;
     height: 100%;
     background-size: 100% 100%;
@@ -676,7 +671,7 @@ button {
 }
 
 .contact .titlepage h2 {
-    color: #02246a;
+    color: #FF7656;
 }
 
 .main_form {
@@ -684,7 +679,7 @@ button {
 }
 
 .main_form .contactus {
-    border: #02246a solid 1px;
+    border: #FFCA56 solid 1px;
     margin-bottom: 25px;
     width: 100%;
     height: 47px;
@@ -727,7 +722,7 @@ button {
 
 /** footer **/
 .footer {
-    background: #02246a;
+    background: #ffca56;
     padding-top: 115px;
     text-align: center;
 }
@@ -845,11 +840,11 @@ ul.link_menu li a:hover {
 }
 
 .copyright p {
-    color: #ddd;
+    color: #FF7656;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    border-top: #a3aec6 solid 1px;
+    border-top: #FF7656 solid 1px;
     padding-top: 25px;
     font-weight: normal;
     margin-bottom: 0;
@@ -1027,6 +1022,7 @@ s.inner_header .header {
     font-size: 22px;
     transition: ease-in all 0.5s;
     background-color: #ffca56;
+    opacity: 0.8;
     text-transform: uppercase;
     color: #fff;
     padding: 12px 0px;
@@ -1038,11 +1034,16 @@ s.inner_header .header {
 }
 
 .send_btn:hover {
-    background-color: #02246a;
-    transition: ease-in all 0.5s;
+    background-color: #ffca56;
+    opacity: 1;
+    transition: ease-in all 0.3s;
     color: #fff;
 }
 
 .carousel-caption {
     position: inherit !important;
+}
+
+.tradingview-widget-container {
+    margin-bottom: 50px;
 }
