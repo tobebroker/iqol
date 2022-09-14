@@ -20,72 +20,44 @@
 </div>
 <!-- end loader -->
 <!-- header -->
-<header>
-    <!-- header inner -->
-    <div class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                    <div class="full">
-                        <div class="center-desk">
-                            <div class="logo">
-                                <a href=""><img src="./images/logo.png" alt="#"/></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                    <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#index">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#about">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#contact">Contact Us</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a href="#" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">Platform</a>
-                                    <div class="dropdown-menu border-0 m-0">
-                                        <a href="#" class="dropdown-item">Web platform</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a href="/" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">English</a>
-                                    <div class="dropdown-menu border-0 m-0">
-                                        <a href="./ru" class="dropdown-item">Русский</a>
-                                        <a href="./pol" class="dropdown-item">Polski</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <a href=""
-                               class="btn btn-sm btn-c-sm btn-light rounded-pill py-2 d-none px-4 d-lg-block account-btn">
-                                Open account
-                            </a>
-                        </div>
-                    </nav>
+<nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5">
+    <a href="./" class="navbar-brand m-0 p-0 fx-center">
+        <img class="logo-img mr-11" src="./images/logo.png" alt="Logo">
+    </a>
+    <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav me-auto p-3 p-lg-0">
+            <a href="./" class="nav-item nav-link">Home</a>
+            <a href="#about" class="nav-item nav-link">About Us</a>
+            <a href="#contact" class="nav-item nav-link">Contact Us</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">Platform</a>
+                <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
+                    <a href="" class="dropdown-item">Web platform</a>
                 </div>
             </div>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">English</a>
+                <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
+                    <a href="./ru" class="dropdown-item">Русский</a>
+                    <a href="./pol" class="dropdown-item">Polski</a>
+                </div>
+            </div>
+
         </div>
+        <a href=""
+           class="btn btn-sm btn-c-sm btn-light rounded-pill py-2 d-none px-4 d-lg-block account-btn">
+            Open account
+        </a>
     </div>
-</header>
+</nav>
 <!-- end header inner -->
 <!-- end header -->
 <!-- banner -->
 <section id="index" class="banner_main">
-    <div id="banner" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#banner" data-slide-to="0" class="active"></li>
-            <li data-target="#banner" data-slide-to="1"></li>
-        </ol>
+    <div id="banner" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="container">
@@ -98,7 +70,7 @@
                                         Trustworthy place for traders from all over the world, authorized by FCA, ASIC
                                         and FSCA
                                     </p>
-                                    <a href="#">Get Started </a>
+                                    <a href="#" class="account-btn">Get Started </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -122,7 +94,7 @@
                                     <p>
                                         Trade from home, at the office, while you travel, and anywhere else
                                     </p>
-                                    <a href="#">Get Started</a>
+                                    <a href="#" class="account-btn">Get Started</a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -597,11 +569,12 @@
                         <defs>
                             <linearGradient id="paint0_linear_5_3" x1="11" y1="3.02382e-06" x2="11" y2="22.0001"
                                             gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#FFCA56"/>
-                                <stop offset="1" stop-color="#FFCA56"/>
+                                <stop stop-color="#FFD042"/>
+                                <stop offset="1" stop-color="#7BE3A4"/>
                             </linearGradient>
                         </defs>
                     </svg>
+
                 </div>
             </a>
         </div>
@@ -669,7 +642,7 @@
                             <input class="contactus" placeholder="Message" type="text">
                         </div>
                         <div class="col-md-12">
-                            <button class="send_btn">Send</button>
+                            <button class="send_btn account-btn">Send</button>
                         </div>
                     </div>
                 </form>
@@ -708,7 +681,7 @@
 <!-- Javascript files-->
 <script src="./js/jquery.min.js"></script>
 <script src="./js/popper.min.js"></script>
-<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/bootstrap5.js"></script>
 <script src="./js/jquery-3.0.0.min.js"></script>
 <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="./js/custom.js"></script>

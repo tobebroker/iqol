@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pol">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,64 +20,44 @@
 </div>
 <!-- end loader -->
 <!-- header -->
-<header>
-    <!-- header inner -->
-    <div class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                    <div class="full">
-                        <div class="center-desk">
-                            <div class="logo">
-                                <a href=""><img src="../images/logo.png" alt="#"/></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                    <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#index">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#about">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#contact">Contact Us</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a href="#" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">Platform</a>
-                                    <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
-                                        <a href="#" class="dropdown-item">Web platform</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <a href="" class="btn btn-sm btn-c-sm btn-light rounded-pill py-2 d-none px-4 d-lg-block account-btn">
-                                Open account
-                            </a>
-                        </div>
-                    </nav>
+<nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5">
+    <a href="../pol" class="navbar-brand m-0 p-0 fx-center">
+        <img class="logo-img mr-11" src="../images/logo.png" alt="Logo">
+    </a>
+    <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav me-auto p-3 p-lg-0">
+            <a href="../pol" class="nav-item nav-link">Home</a>
+            <a href="#about" class="nav-item nav-link">About Us</a>
+            <a href="#contact" class="nav-item nav-link">Contact Us</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">Platform</a>
+                <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
+                    <a href="" class="dropdown-item">Web platform</a>
                 </div>
             </div>
+            <div class="nav-item dropdown">
+                <a href="../pol" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">Polski</a>
+                <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
+                    <a href="./ru" class="dropdown-item">Русский</a>
+                    <a href="./" class="dropdown-item">English</a>
+                </div>
+            </div>
+
         </div>
+        <a href=""
+           class="btn btn-sm btn-c-sm btn-light rounded-pill py-2 d-none px-4 d-lg-block account-btn">
+            Open account
+        </a>
     </div>
-</header>
+</nav>
 <!-- end header inner -->
 <!-- end header -->
 <!-- banner -->
 <section id="index" class="banner_main">
-    <div id="banner" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#banner" data-slide-to="0" class="active"></li>
-            <li data-target="#banner" data-slide-to="1"></li>
-        </ol>
+    <div id="banner" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="container">
@@ -90,7 +70,7 @@
                                         Trustworthy place for traders from all over the world, authorized by FCA, ASIC
                                         and FSCA
                                     </p>
-                                    <a href="#">Get Started </a>
+                                    <a href="#" class="account-btn">Get Started </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -114,7 +94,7 @@
                                     <p>
                                         Trade from home, at the office, while you travel, and anywhere else
                                     </p>
-                                    <a href="#">Get Started</a>
+                                    <a href="#" class="account-btn">Get Started</a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -138,228 +118,242 @@
     <div class="tradingview-widget-container">
         <div class="tradingview-widget-container__widget"></div>
         <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener"
-                                                     target="_blank"><span class="blue-text">Markets</span></a> by TradingView</div>
+                                                     target="_blank"><span class="blue-text">Markets</span></a> by
+            TradingView
+        </div>
         <script type="text/javascript"
                 src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
             {
-                "symbols": [{
-                "proName": "FOREXCOM:SPXUSD",
-                "title": "S&P 500"
-            },
-                {
-                    "proName": "FOREXCOM:NSXUSD",
-                    "title": "US 100"
+                "symbols"
+            :
+                [{
+                    "proName": "FOREXCOM:SPXUSD",
+                    "title": "S&P 500"
                 },
-                {
-                    "proName": "FX_IDC:EURUSD",
-                    "title": "EUR/USD"
-                },
-                {
-                    "proName": "BITSTAMP:BTCUSD",
-                    "title": "Bitcoin"
-                },
-                {
-                    "proName": "BITSTAMP:ETHUSD",
-                    "title": "Ethereum"
-                },
-                {
-                    "description": "",
-                    "proName": "BINANCE:BTCUSDT"
-                },
-                {
-                    "description": "",
-                    "proName": "BITSTAMP:BTCUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "OANDA:XAUUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "FX:EURUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "BINANCE:ETHUSDT"
-                },
-                {
-                    "description": "",
-                    "proName": "BINANCE:BTCUSDTPERP"
-                },
-                {
-                    "description": "",
-                    "proName": "TVC:DXY"
-                },
-                {
-                    "description": "",
-                    "proName": "FX:GBPUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "FX:USDJPY"
-                },
-                {
-                    "description": "",
-                    "proName": "COINBASE:BTCUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "AMEX:SPY"
-                },
-                {
-                    "description": "",
-                    "proName": "NASDAQ:AAPL"
-                },
-                {
-                    "description": "",
-                    "proName": "NASDAQ:AAPL"
-                },
-                {
-                    "description": "",
-                    "proName": "SP:SPX"
-                },
-                {
-                    "description": "",
-                    "proName": "BYBIT:BTCUSDT"
-                },
-                {
-                    "description": "",
-                    "proName": "FX:GBPJPY"
-                },
-                {
-                    "description": "",
-                    "proName": "FX:GBPJPY"
-                },
-                {
-                    "description": "",
-                    "proName": "NASDAQ:TSLA"
-                },
-                {
-                    "description": "",
-                    "proName": "TVC:GOLD"
-                },
-                {
-                    "description": "",
-                    "proName": "OANDA:EURUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "BINANCE:SOLUSDT"
-                },
-                {
-                    "description": "",
-                    "proName": "CME_MINI:ES1!"
-                },
-                {
-                    "description": "",
-                    "proName": "CME_MINI:ES1!"
-                },
-                {
-                    "description": "",
-                    "proName": "FX:AUDUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "SGX:IN1!"
-                },
-                {
-                    "description": "",
-                    "proName": "OANDA:GBPUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "OANDA:GBPJPY"
-                },
-                {
-                    "description": "",
-                    "proName": "BITSTAMP:ETHUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "FOREXCOM:XAUUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "CURRENCYCOM:US30"
-                },
-                {
-                    "description": "",
-                    "proName": "NASDAQ:QQQ"
-                },
-                {
-                    "description": "",
-                    "proName": "TVC:USOIL"
-                },
-                {
-                    "description": "",
-                    "proName": "COINBASE:ETHUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "OANDA:NAS100USD"
-                },
-                {
-                    "description": "",
-                    "proName": "FX:USDCAD"
-                },
-                {
-                    "description": "",
-                    "proName": "INDEX:BTCUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "BINANCE:ADAUSDT"
-                },
-                {
-                    "description": "",
-                    "proName": "NASDAQ:AMZN"
-                },
-                {
-                    "description": "",
-                    "proName": "CURRENCYCOM:US100"
-                },
-                {
-                    "description": "",
-                    "proName": "BYBIT:BTCUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "OANDA:US30USD"
-                },
-                {
-                    "description": "",
-                    "proName": "OANDA:AUDUSD"
-                },
-                {
-                    "description": "",
-                    "proName": "NSE:RELIANCE"
-                },
-                {
-                    "description": "",
-                    "proName": "CME_MINI:NQ1!"
-                },
-                {
-                    "description": "",
-                    "proName": "BINANCE:BNBUSDT"
-                },
-                {
-                    "description": "",
-                    "proName": "FX:EURJPY"
-                },
-                {
-                    "description": "",
-                    "proName": "BINANCE:ETHUSDTPERP"
-                },
-                {
-                    "description": "",
-                    "proName": "OANDA:USDJPY"
-                }
-            ],
-                "showSymbolLogo": true,
-                "colorTheme": "light",
-                "isTransparent": false,
-                "displayMode": "adaptive",
-                "locale": "en"
+                    {
+                        "proName": "FOREXCOM:NSXUSD",
+                        "title": "US 100"
+                    },
+                    {
+                        "proName": "FX_IDC:EURUSD",
+                        "title": "EUR/USD"
+                    },
+                    {
+                        "proName": "BITSTAMP:BTCUSD",
+                        "title": "Bitcoin"
+                    },
+                    {
+                        "proName": "BITSTAMP:ETHUSD",
+                        "title": "Ethereum"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:BTCUSDT"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BITSTAMP:BTCUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:XAUUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:EURUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:ETHUSDT"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:BTCUSDTPERP"
+                    },
+                    {
+                        "description": "",
+                        "proName": "TVC:DXY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:GBPUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:USDJPY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "COINBASE:BTCUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "AMEX:SPY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NASDAQ:AAPL"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NASDAQ:AAPL"
+                    },
+                    {
+                        "description": "",
+                        "proName": "SP:SPX"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BYBIT:BTCUSDT"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:GBPJPY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:GBPJPY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NASDAQ:TSLA"
+                    },
+                    {
+                        "description": "",
+                        "proName": "TVC:GOLD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:EURUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:SOLUSDT"
+                    },
+                    {
+                        "description": "",
+                        "proName": "CME_MINI:ES1!"
+                    },
+                    {
+                        "description": "",
+                        "proName": "CME_MINI:ES1!"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:AUDUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "SGX:IN1!"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:GBPUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:GBPJPY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BITSTAMP:ETHUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FOREXCOM:XAUUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "CURRENCYCOM:US30"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NASDAQ:QQQ"
+                    },
+                    {
+                        "description": "",
+                        "proName": "TVC:USOIL"
+                    },
+                    {
+                        "description": "",
+                        "proName": "COINBASE:ETHUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:NAS100USD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:USDCAD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "INDEX:BTCUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:ADAUSDT"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NASDAQ:AMZN"
+                    },
+                    {
+                        "description": "",
+                        "proName": "CURRENCYCOM:US100"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BYBIT:BTCUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:US30USD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:AUDUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NSE:RELIANCE"
+                    },
+                    {
+                        "description": "",
+                        "proName": "CME_MINI:NQ1!"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:BNBUSDT"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:EURJPY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:ETHUSDTPERP"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:USDJPY"
+                    }
+                ],
+                    "showSymbolLogo"
+            :
+                true,
+                    "colorTheme"
+            :
+                "light",
+                    "isTransparent"
+            :
+                false,
+                    "displayMode"
+            :
+                "adaptive",
+                    "locale"
+            :
+                "en"
             }
         </script>
     </div>
@@ -421,9 +415,7 @@
                         Free education courses and guides to help you get started or build your trading skills
                     </h4>
                 </div>
-
             </div>
-
         </div>
     </section>
     <!-- services -->
@@ -564,25 +556,25 @@
                 <svg class="icon" width="36" height="37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                             d="M18 3.5C15.0333 3.5 12.1332 4.37973 9.66645 6.02796C7.19972 7.67618 5.27713 10.0189 4.14181 12.7597C3.0065 15.5006 2.70945 18.5166 3.28823 21.4264C3.86701 24.3361 5.29562 27.0088 7.39341 29.1066C9.49119 31.2044 12.1639 32.633 15.0737 33.2118C17.9834 33.7906 20.9994 33.4935 23.7403 32.3582C26.4812 31.2229 28.8238 29.3003 30.4721 26.8336C32.1203 24.3668 33 21.4667 33 18.5C33 16.5302 32.612 14.5796 31.8582 12.7597C31.1044 10.9399 29.9995 9.28628 28.6066 7.8934C27.2137 6.50052 25.5601 5.39563 23.7403 4.64181C21.9204 3.88799 19.9698 3.5 18 3.5ZM18 30.5C15.6266 30.5 13.3066 29.7962 11.3332 28.4776C9.35977 27.1591 7.8217 25.2849 6.91345 23.0922C6.0052 20.8995 5.76756 18.4867 6.23058 16.1589C6.69361 13.8311 7.8365 11.6929 9.51473 10.0147C11.193 8.33649 13.3312 7.1936 15.6589 6.73058C17.9867 6.26755 20.3995 6.50519 22.5922 7.41345C24.7849 8.3217 26.6591 9.85977 27.9776 11.8332C29.2962 13.8065 30 16.1266 30 18.5C30 21.6826 28.7357 24.7348 26.4853 26.9853C24.2349 29.2357 21.1826 30.5 18 30.5Z"
-                            fill="white" />
+                            fill="white"/>
                     <path
                             d="M24 17H19.5V12.5C19.5 12.1022 19.342 11.7206 19.0607 11.4393C18.7794 11.158 18.3978 11 18 11C17.6022 11 17.2206 11.158 16.9393 11.4393C16.658 11.7206 16.5 12.1022 16.5 12.5V18.5C16.5 18.8978 16.658 19.2794 16.9393 19.5607C17.2206 19.842 17.6022 20 18 20H24C24.3978 20 24.7794 19.842 25.0607 19.5607C25.342 19.2794 25.5 18.8978 25.5 18.5C25.5 18.1022 25.342 17.7206 25.0607 17.4393C24.7794 17.158 24.3978 17 24 17Z"
-                            fill="white" />
+                            fill="white"/>
                 </svg>
                 <p class="text">Ready to start? Open Trading Account Now</p>
                 <div class="enter-icon">
-                    <svg class="icon" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                                d="M4.58341 11.9168H15.4551L12.1276 15.9135C12.0505 16.0062 11.9925 16.1131 11.9568 16.2283C11.9211 16.3434 11.9084 16.4644 11.9195 16.5844C11.9418 16.8268 12.0595 17.0504 12.2467 17.206C12.4339 17.3616 12.6753 17.4364 12.9177 17.4141C13.1601 17.3918 13.3837 17.274 13.5392 17.0868L18.1226 11.5868C18.1534 11.5431 18.181 11.4971 18.2051 11.4493C18.2051 11.4035 18.2509 11.376 18.2692 11.3302C18.3108 11.2251 18.3326 11.1132 18.3334 11.0002C18.3326 10.8871 18.3108 10.7753 18.2692 10.6702C18.2692 10.6243 18.2234 10.5968 18.2051 10.551C18.181 10.5032 18.1534 10.4572 18.1226 10.4135L13.5392 4.9135C13.4531 4.81002 13.3451 4.72681 13.2231 4.66977C13.1011 4.61274 12.9681 4.58328 12.8334 4.5835C12.6192 4.58308 12.4117 4.65767 12.2467 4.79433C12.1539 4.87128 12.0772 4.96579 12.021 5.07244C11.9647 5.1791 11.9301 5.2958 11.919 5.41586C11.9079 5.53592 11.9207 5.65699 11.9565 5.77212C11.9922 5.88726 12.0504 5.9942 12.1276 6.08683L15.4551 10.0835H4.58341C4.3403 10.0835 4.10714 10.1801 3.93523 10.352C3.76333 10.5239 3.66675 10.7571 3.66675 11.0002C3.66675 11.2433 3.76333 11.4764 3.93523 11.6483C4.10714 11.8203 4.3403 11.9168 4.58341 11.9168Z"
-                                fill="url(#paint0_linear_101_903)" />
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.37499 12.5703H17.6825L12.6913 19.4211C12.5756 19.58 12.4886 19.7633 12.4351 19.9608C12.3815 20.158 12.3625 20.3655 12.3791 20.5712C12.4126 20.9867 12.5891 21.3699 12.8699 21.6367C13.1507 21.9034 13.5128 22.0316 13.8764 21.9934C14.24 21.9551 14.5754 21.7532 14.8087 21.4323L21.6838 12.0046C21.73 11.9297 21.7714 11.8508 21.8075 11.7689C21.8075 11.6904 21.8762 11.6433 21.9037 11.5648C21.9661 11.3846 21.9988 11.1928 22 10.9991C21.9988 10.8052 21.9661 10.6136 21.9037 10.4334C21.9037 10.3547 21.835 10.3076 21.8075 10.2291C21.7714 10.1472 21.73 10.0683 21.6838 9.9934L14.8087 0.565667C14.6795 0.388289 14.5175 0.245655 14.3345 0.147881C14.1515 0.0501241 13.952 -0.000374086 13.75 3.02381e-06C13.4287 -0.000716913 13.1174 0.127141 12.8699 0.361394C12.7307 0.493297 12.6157 0.6553 12.5314 0.838112C12.4469 1.02094 12.395 1.22098 12.3784 1.42678C12.3617 1.63258 12.3809 1.84011 12.4346 2.03746C12.4882 2.23482 12.5755 2.41813 12.6913 2.57691L17.6825 9.42774H1.37499C1.01033 9.42774 0.660586 9.59333 0.402721 9.88799C0.14487 10.1826 0 10.5824 0 10.9991C0 11.4158 0.14487 11.8154 0.402721 12.11C0.660586 12.4048 1.01033 12.5703 1.37499 12.5703Z"
+                              fill="url(#paint0_linear_5_3)"/>
                         <defs>
-                            <linearGradient id="paint0_linear_101_903" x1="11.0001" y1="4.5835" x2="11.0001" y2="17.418"
+                            <linearGradient id="paint0_linear_5_3" x1="11" y1="3.02382e-06" x2="11" y2="22.0001"
                                             gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#7462AA" />
-                                <stop offset="1" stop-color="#62C6E1" />
+                                <stop stop-color="#FFD042"/>
+                                <stop offset="1" stop-color="#7BE3A4"/>
                             </linearGradient>
                         </defs>
                     </svg>
+
                 </div>
             </a>
         </div>
@@ -650,7 +642,7 @@
                             <input class="contactus" placeholder="Message" type="text">
                         </div>
                         <div class="col-md-12">
-                            <button class="send_btn">Send</button>
+                            <button class="send_btn account-btn">Send</button>
                         </div>
                     </div>
                 </form>
@@ -689,7 +681,7 @@
 <!-- Javascript files-->
 <script src="../js/jquery.min.js"></script>
 <script src="../js/popper.min.js"></script>
-<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/bootstrap5.js"></script>
 <script src="../js/jquery-3.0.0.min.js"></script>
 <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="../js/custom.js"></script>

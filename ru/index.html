@@ -20,72 +20,44 @@
 </div>
 <!-- end loader -->
 <!-- header -->
-<header>
-    <!-- header inner -->
-    <div class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                    <div class="full">
-                        <div class="center-desk">
-                            <div class="logo">
-                                <a href=""><img src="../images/logo.png" alt="#"/></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                    <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#index">Главный</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#about">О нас</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#contact">Контакт</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a href="#" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">Платформа</a>
-                                    <div class="dropdown-menu border-0 m-0">
-                                        <a href="#" class="dropdown-item">Веб платформа</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a href="../ru" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">Русский</a>
-                                    <div class="dropdown-menu border-0 m-0">
-                                        <a href="../ru" class="dropdown-item">English</a>
-                                        <a href="../pol" class="dropdown-item">Polski</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <a href=""
-                               class="btn btn-sm btn-c-sm btn-light rounded-pill py-2 d-none px-4 d-lg-block account-btn">
-                                Oткрытый аккаунт
-                            </a>
-                        </div>
-                    </nav>
+<nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5">
+    <a href="index.html" class="navbar-brand m-0 p-0 fx-center">
+        <img class="logo-img mr-11" src="../images/logo.png" alt="Logo">
+    </a>
+    <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav me-auto p-3 p-lg-0">
+            <a href="../ru" class="nav-item nav-link">Главный</a>
+            <a href="#about" class="nav-item nav-link">О нас</a>
+            <a href="#contact" class="nav-item nav-link">Контакт</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">Платформа</a>
+                <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
+                    <a href="" class="dropdown-item">Веб платформа</a>
                 </div>
             </div>
+            <div class="nav-item dropdown">
+                <a href="../ru" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">Русский</a>
+                <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
+                    <a href="./" class="dropdown-item">English</a>
+                    <a href="../pol" class="dropdown-item">Polski</a>
+                </div>
+            </div>
+
         </div>
+        <a href=""
+           class="btn btn-sm btn-c-sm btn-light rounded-pill py-2 d-none px-4 d-lg-block account-btn">
+            Oткрытый аккаунт
+        </a>
     </div>
-</header>
+</nav>
 <!-- end header inner -->
 <!-- end header -->
 <!-- banner -->
 <section id="index" class="banner_main">
-    <div id="banner" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#banner" data-slide-to="0" class="active"></li>
-            <li data-target="#banner" data-slide-to="1"></li>
-        </ol>
+    <div id="banner" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="container">
@@ -99,7 +71,7 @@
                                         Надежное место для трейдеров со всего
                                         мира, авторизованное FCA, ASIC и FSCA
                                     </p>
-                                    <a href="#">Начать</a>
+                                    <a href="#" class="account-btn">Начать</a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -124,7 +96,7 @@
                                     <p>
                                         Торгуйте из дома, в офисе, в путешествии и в любом другом месте
                                     </p>
-                                    <a href="#">Начать</a>
+                                    <a href="#" class="account-btn">Начать</a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -605,11 +577,12 @@
                         <defs>
                             <linearGradient id="paint0_linear_5_3" x1="11" y1="3.02382e-06" x2="11" y2="22.0001"
                                             gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#FFCA56"/>
-                                <stop offset="1" stop-color="#FFCA56"/>
+                                <stop stop-color="#FFD042"/>
+                                <stop offset="1" stop-color="#7BE3A4"/>
                             </linearGradient>
                         </defs>
                     </svg>
+
                 </div>
             </a>
         </div>
