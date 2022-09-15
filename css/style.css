@@ -29,7 +29,6 @@
     background-color: red;
 }
 
-
 * {
     box-sizing: border-box !important;
 }
@@ -79,7 +78,7 @@ h1 {
 
 h2 {
     font-size: 22px;
-    font-family: 'Baloo Chettan', cursive;
+    /*font-family: 'Baloo Chettan', cursive;*/
 }
 
 h3 {
@@ -1061,7 +1060,7 @@ ul.link_menu li a:hover {
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 16px 0;
-    color: var(--gray) !important;
+    color: var(--pink) !important;
     font-weight: 500;
     outline: none;
     font-size: 15px;
@@ -1178,7 +1177,7 @@ ul.link_menu li a:hover {
 }
 
 .dropdown-menu .dropdown-item {
-    color: var(--gray);
+    color: var(--pink);
 }
 
 .dropdown-menu .dropdown-item:hover {
