@@ -73,7 +73,7 @@ h6 {
 
 h1 {
     font-size: 24px;
-    font-family: 'Baloo Chettan', cursive;
+    /*font-family: 'Baloo Chettan', cursive;*/
 }
 
 h2 {
@@ -357,7 +357,7 @@ button {
     font-weight: 500;
     padding-bottom: 25px;
     display: block;
-    font-size: 19px;
+    font-size: 22px;
 }
 
 .text_img {
