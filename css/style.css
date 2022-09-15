@@ -440,6 +440,7 @@ button {
     line-height: 55px;
     padding: 0;
     text-align: center;
+    font-weight: 400;
 }
 
 .d_flex {
@@ -456,6 +457,10 @@ button {
 .team .titlepage {
     text-align: left;
     padding-bottom: 0;
+}
+
+.team .titlepage h2 {
+    font-weight: 400;
 }
 
 .team .titlepage p {
@@ -601,6 +606,7 @@ button {
 
 .ideas .titlepage h2 {
     color: var(--pink);
+    font-weight: 400;
 }
 
 .border_trbl {
@@ -682,6 +688,7 @@ button {
 
 .contact .titlepage h2 {
     color: var(--pink);
+    font-weight: 400;
 }
 
 .main_form {
